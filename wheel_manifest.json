@@ -1,0 +1,104 @@
+{
+  "status": "OFFICIAL_PYPI_HASH_AND_TARGET_DEPENDENCY_CLOSURE_PASS",
+  "created_at_utc": "2026-10-23T11:32:58.090420+00:00",
+  "target": "Linux x86_64 glibc>=2.28 CPython 3.9.19",
+  "wheels": [
+    {
+      "filename": "chardet-5.2.0-py3-none-any.whl",
+      "name": "chardet",
+      "version": "5.2.0",
+      "sha256": "e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970",
+      "size_bytes": 199385,
+      "pypi_metadata_url": "https://pypi.org/pypi/chardet/5.2.0/json",
+      "download_url": "https://files.pythonhosted.org/packages/38/6f/f5fbc992a329ee4e0f288c1fe0e2ad9485ed064cac731ed2fe47dcc38cbf/chardet-5.2.0-py3-none-any.whl",
+      "requires_python": ">=3.7",
+      "requires_dist": []
+    },
+    {
+      "filename": "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "name": "numpy",
+      "version": "1.26.4",
+      "sha256": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3",
+      "size_bytes": 18249516,
+      "pypi_metadata_url": "https://pypi.org/pypi/numpy/1.26.4/json",
+      "download_url": "https://files.pythonhosted.org/packages/54/30/c2a907b9443cf42b90c17ad10c1e8fa801975f01cb9764f3f8eb8aea638b/numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "requires_python": ">=3.9",
+      "requires_dist": []
+    },
+    {
+      "filename": "pickleshare-0.7.5-py2.py3-none-any.whl",
+      "name": "pickleshare",
+      "version": "0.7.5",
+      "sha256": "9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56",
+      "size_bytes": 6877,
+      "pypi_metadata_url": "https://pypi.org/pypi/pickleshare/0.7.5/json",
+      "download_url": "https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl",
+      "requires_python": null,
+      "requires_dist": [
+        "pathlib2; python_version in \"2.6 2.7 3.2 3.3\""
+      ]
+    },
+    {
+      "filename": "pillow-10.4.0-cp39-cp39-manylinux_2_28_x86_64.whl",
+      "name": "pillow",
+      "version": "10.4.0",
+      "sha256": "b2724fdb354a868ddf9a880cb84d102da914e99119211ef7ecbdc613b8c96b3c",
+      "size_bytes": 4521800,
+      "pypi_metadata_url": "https://pypi.org/pypi/pillow/10.4.0/json",
+      "download_url": "https://files.pythonhosted.org/packages/bc/a8/8655557c9c7202b8abbd001f61ff36711cefaf750debcaa1c24d154ef602/pillow-10.4.0-cp39-cp39-manylinux_2_28_x86_64.whl",
+      "requires_python": ">=3.8",
+      "requires_dist": [
+        "furo ; extra == 'docs'",
+        "olefile ; extra == 'docs'",
+        "sphinx >=7.3 ; extra == 'docs'",
+        "sphinx-copybutton ; extra == 'docs'",
+        "sphinx-inline-tabs ; extra == 'docs'",
+        "sphinxext-opengraph ; extra == 'docs'",
+        "olefile ; extra == 'fpx'",
+        "olefile ; extra == 'mic'",
+        "check-manifest ; extra == 'tests'",
+        "coverage ; extra == 'tests'",
+        "defusedxml ; extra == 'tests'",
+        "markdown2 ; extra == 'tests'",
+        "olefile ; extra == 'tests'",
+        "packaging ; extra == 'tests'",
+        "pyroma ; extra == 'tests'",
+        "pytest ; extra == 'tests'",
+        "pytest-cov ; extra == 'tests'",
+        "pytest-timeout ; extra == 'tests'",
+        "typing-extensions ; (python_version < \"3.10\") and extra == 'typing'",
+        "defusedxml ; extra == 'xmp'"
+      ]
+    },
+    {
+      "filename": "pypdfium2-4.30.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "name": "pypdfium2",
+      "version": "4.30.0",
+      "sha256": "f1f78d2189e0ddf9ac2b7a9b9bd4f0c66f54d1389ff6c17e9fd9dc034d06eb3f",
+      "size_bytes": 2812008,
+      "pypi_metadata_url": "https://pypi.org/pypi/pypdfium2/4.30.0/json",
+      "download_url": "https://files.pythonhosted.org/packages/65/cd/3f1edf20a0ef4a212a5e20a5900e64942c5a374473671ac0780eaa08ea80/pypdfium2-4.30.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "requires_python": ">= 3.6",
+      "requires_dist": []
+    },
+    {
+      "filename": "reportlab-4.2.5-py3-none-any.whl",
+      "name": "reportlab",
+      "version": "4.2.5",
+      "sha256": "eb2745525a982d9880babb991619e97ac3f661fae30571b7d50387026ca765ee",
+      "size_bytes": 1942821,
+      "pypi_metadata_url": "https://pypi.org/pypi/reportlab/4.2.5/json",
+      "download_url": "https://files.pythonhosted.org/packages/73/12/6444906db1bc65d3a8118afb089d53c7eeca0726164f51eb3599de1d0665/reportlab-4.2.5-py3-none-any.whl",
+      "requires_python": ">=3.7,<4",
+      "requires_dist": [
+        "pillow>=9.0.0",
+        "chardet",
+        "rl-accel<1.1,>=0.9.0; extra == \"accel\"",
+        "rlPyCairo<1,>=0.2.0; extra == \"pycairo\"",
+        "freetype-py<2.4,>=2.3.0; extra == \"pycairo\"",
+        "rl-renderPM<4.1,>=4.0.3; extra == \"renderpm\""
+      ]
+    }
+  ],
+  "runtime_note": "Metadata/hash verification only; Windows build host cannot execute Linux wheels."
+}

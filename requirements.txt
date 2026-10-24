@@ -1,0 +1,8 @@
+# Target: Linux x86_64 / CPython 3.9 wbcattplus environment.
+# Install only these audit dependencies; do not reinstall torch/CUDA/Jupyter.
+numpy==1.26.4
+Pillow==10.4.0
+reportlab==4.2.5
+pypdfium2==4.30.0
+pickleshare==0.7.5
+chardet==5.2.0

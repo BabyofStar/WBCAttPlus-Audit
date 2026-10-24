@@ -1,0 +1,189 @@
+{
+  "package": "WBCAttPlus_Deployment.zip",
+  "schema": 2,
+  "package_scope": "SUPPORTED_ONLY_V2",
+  "target": "Existing Linux x86_64 glibc>=2.28 CPython 3.9 wbcattplus environment",
+  "scope": "Supported-only integrity/pixel statistics/duplicate-risk audit. Source splitting, granule masks and physical-unit conversion are NOT_IMPLEMENTED.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 102,
+      "sha256": "e1f4ba4378896902c6876d990c3a6f70a8e20ecc4c92a54450ad9abeadb156c5"
+    },
+    {
+      "path": "GitHub_部署指南.md",
+      "size_bytes": 9186,
+      "sha256": "f7698f2e9d8277498d57ead4b6551bbad369e0ea942bde77e63bd3715f8620aa"
+    },
+    {
+      "path": "datasets/WBCAttPlus/archives/pbcseg_final_v1.tar",
+      "size_bytes": 190085120,
+      "sha256": "2a1730ce3a772e34bd1089b1aec44597e75b94ab0d26fbe697cb1189a9155090"
+    },
+    {
+      "path": "datasets/WBCAttPlus/dataset_txt/pbc_attr_v1_ccrop_all.csv",
+      "size_bytes": 1360334,
+      "sha256": "5061872d1eaef209231895aac66a1af2a201019755ce9d64d9bcb80408f128cd"
+    },
+    {
+      "path": "datasets/WBCAttPlus/dataset_txt/pbc_attr_v1_ccrop_test.csv",
+      "size_bytes": 407952,
+      "sha256": "25c34f35574cfad63abadfff99eb64b2c965dfd0d8f20353f88b0648d60d13e9"
+    },
+    {
+      "path": "datasets/WBCAttPlus/dataset_txt/pbc_attr_v1_ccrop_train.csv",
+      "size_bytes": 817934,
+      "sha256": "f5ed4f3ebee34f7a816f117dc5fa8f6f64c4703889b5a1724d658ec4e66872d1"
+    },
+    {
+      "path": "datasets/WBCAttPlus/dataset_txt/pbc_attr_v1_ccrop_val.csv",
+      "size_bytes": 134844,
+      "sha256": "3d8b62b71f50d0bdb924ad9d6f34fa41c6edb2c14dcab01687c0b854ee804381"
+    },
+    {
+      "path": "datasets/WBCAttPlus/download_manifest.json",
+      "size_bytes": 6205,
+      "sha256": "aeda0f3f997ffbcfe370f72e70ad3d99760726934de63696cbbc3dace7bd86eb"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/Mask2Former/mask2former/data/datasets/register_pbcseg_full.py",
+      "size_bytes": 2084,
+      "sha256": "269651feace05d984e1895e5bfe31ec414701ccbac5a6a2f6717078de5d37719"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/README.md",
+      "size_bytes": 10440,
+      "sha256": "05034151512973ff8315cfc33054330a5a3e7b66640dc6004fcce95160745cee"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/att_dataset_seg.py",
+      "size_bytes": 5477,
+      "sha256": "018fa22802c982ec3c47b1a1370a2fa9a0b2cbaa6df27657e78614b1319391f0"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/configs/fcn.yaml",
+      "size_bytes": 2788,
+      "sha256": "51229fbc114dd6d4765d9e978c76d5dcd35e4b80770d9ffe6a3a47ff2688d4ef"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/data/PBC/pbcseg_final_v1_viz.ipynb",
+      "size_bytes": 678705,
+      "sha256": "37581ef6123db82e182f0d68127d639ea1b1af0bbbabcc998e6c6610c2bb8591"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/dataset_txt/attribute.yml",
+      "size_bytes": 601,
+      "sha256": "7c87678127814e169a91762d87e4990c5ce900e53aaf4d699ef928cc7d0a82ed"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/huggingface_README.md",
+      "size_bytes": 1544,
+      "sha256": "52a3083d5e5f4c98ce376d335087a329bc3c19b3ce3b31120323a6aab66a0337"
+    },
+    {
+      "path": "datasets/WBCAttPlus/reference/main_seg.py",
+      "size_bytes": 21279,
+      "sha256": "723e25aea84605b96e88e283c31b61e1c921cc69e5addff7212a34fc328c8f4c"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 237,
+      "sha256": "cce971c26428a1a1b22f7be09cd89f5f890d4eba8659e502b39cafe75cc1dfd5"
+    },
+    {
+      "path": "scripts/audit_report.py",
+      "size_bytes": 18078,
+      "sha256": "0d23e2443cfb5d72d11bb8a234bc842226b86c7f11cde28d91fd5a156e8ea279"
+    },
+    {
+      "path": "scripts/audit_scope.py",
+      "size_bytes": 4166,
+      "sha256": "85b46218be629f2a58ab3005df6027e2d1a95052ddcbaad172ee7a09bf79f11d"
+    },
+    {
+      "path": "scripts/audit_utils.py",
+      "size_bytes": 735,
+      "sha256": "93a09447a51fb62797f748bb032fd3c2904cbb750f49065e82bd460c14a9edbb"
+    },
+    {
+      "path": "scripts/build_package.py",
+      "size_bytes": 12326,
+      "sha256": "71b6f75332f0840fae13adccdf85f9dc991558ff7225615c96160bdff3ec1daa"
+    },
+    {
+      "path": "scripts/dataset_audit.py",
+      "size_bytes": 20083,
+      "sha256": "056fc97f7bc1e2a6ff383441cc8f890c53e31e1baab39ae586903a11f993ac6c"
+    },
+    {
+      "path": "scripts/dataset_extract.py",
+      "size_bytes": 6176,
+      "sha256": "b0a8e4b1f2730039c08b2ed8ce59657081c91759ff6dea311e0bdc1e4eea6df0"
+    },
+    {
+      "path": "scripts/dataset_workflow.py",
+      "size_bytes": 10372,
+      "sha256": "c43bc5e8ee77eb8459a050ac544a18692cdd5799db418ff997fe24df91816eb4"
+    },
+    {
+      "path": "scripts/package_extract.py",
+      "size_bytes": 3825,
+      "sha256": "ec4232c0b92d309cb3480f9e98e9855357970c909dd3404a18650da605e2d25c"
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "size_bytes": 5139,
+      "sha256": "8edf901f336831718424a256d44b5e6ab29cf837a00bfedd5d846c4b28213f61"
+    },
+    {
+      "path": "tests/test_dataset_audit.py",
+      "size_bytes": 6797,
+      "sha256": "2f6dc429782790f071a07a5424700920d1a2e12e74825eaa6cff87ac7e441a45"
+    },
+    {
+      "path": "tests/test_dataset_workflow.py",
+      "size_bytes": 5434,
+      "sha256": "54f0f3b6d2ac8f36825553f0c93238345cbaa0dfaa352381e915535146858e1a"
+    },
+    {
+      "path": "wheel_manifest.json",
+      "size_bytes": 4972,
+      "sha256": "e27572712d78dd1d8883826a0e4579ffbff55206f189c79ef118a21dd66e14a3"
+    },
+    {
+      "path": "wheelhouse/chardet-5.2.0-py3-none-any.whl",
+      "size_bytes": 199385,
+      "sha256": "e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970"
+    },
+    {
+      "path": "wheelhouse/numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "size_bytes": 18249516,
+      "sha256": "f870204a840a60da0b12273ef34f7051e98c3b5961b61b0c2c1be6dfd64fbcd3"
+    },
+    {
+      "path": "wheelhouse/pickleshare-0.7.5-py2.py3-none-any.whl",
+      "size_bytes": 6877,
+      "sha256": "9649af414d74d4df115d5d718f82acb59c9d418196b7b4290ed47a12ce62df56"
+    },
+    {
+      "path": "wheelhouse/pillow-10.4.0-cp39-cp39-manylinux_2_28_x86_64.whl",
+      "size_bytes": 4521800,
+      "sha256": "b2724fdb354a868ddf9a880cb84d102da914e99119211ef7ecbdc613b8c96b3c"
+    },
+    {
+      "path": "wheelhouse/pypdfium2-4.30.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "size_bytes": 2812008,
+      "sha256": "f1f78d2189e0ddf9ac2b7a9b9bd4f0c66f54d1389ff6c17e9fd9dc034d06eb3f"
+    },
+    {
+      "path": "wheelhouse/reportlab-4.2.5-py3-none-any.whl",
+      "size_bytes": 1942821,
+      "sha256": "eb2745525a982d9880babb991619e97ac3f661fae30571b7d50387026ca765ee"
+    },
+    {
+      "path": "功能范围与限制.md",
+      "size_bytes": 2255,
+      "sha256": "8907f1691c7668199f8de7334b841e5dc1eb9da826afa82b8397fbfd37c54817"
+    }
+  ]
+}
