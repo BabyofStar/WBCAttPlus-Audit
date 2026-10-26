@@ -1,0 +1,17 @@
+﻿image_a,image_b,hamming_distance,split_a,split_b,cross_official_split,identical_rgb
+BA_546746_ccrop.jpg,BA_685720_ccrop.jpg,0,train,train,False,True
+BA_225540_ccrop.jpg,BA_786369_ccrop.jpg,0,train,test,True,True
+BA_381452_ccrop.jpg,BA_80990_ccrop.jpg,0,train,test,True,True
+BA_20201_ccrop.jpg,BA_809918_ccrop.jpg,0,train,train,False,True
+BA_435917_ccrop.jpg,BA_858229_ccrop.jpg,0,val,test,True,True
+BA_251042_ccrop.jpg,BA_988506_ccrop.jpg,0,train,train,False,True
+BNE_191112_ccrop.jpg,EO_225902_ccrop.jpg,0,val,test,True,True
+EO_246684_ccrop.jpg,EO_409717_ccrop.jpg,2,train,train,False,False
+EO_220125_ccrop.jpg,EO_433229_ccrop.jpg,0,train,train,False,True
+EO_621854_ccrop.jpg,EO_728356_ccrop.jpg,0,train,train,False,True
+EO_284748_ccrop.jpg,EO_738445_ccrop.jpg,0,train,train,False,True
+EO_65638_ccrop.jpg,EO_873756_ccrop.jpg,0,train,train,False,True
+EO_890163_ccrop.jpg,EO_918881_ccrop.jpg,0,test,train,True,True
+EO_941266_ccrop.jpg,EO_994040_ccrop.jpg,0,test,test,False,True
+MO_231316_ccrop.jpg,MO_415531_ccrop.jpg,1,train,train,False,False
+MO_145357_ccrop.jpg,MO_997225_ccrop.jpg,0,test,train,True,True

@@ -1,0 +1,50 @@
+{
+  "status": "FILE_INTEGRITY_PASS",
+  "run_id": "20261024T083950Z_2d40cc60",
+  "execution_site": "server",
+  "output": "/home/jovyan/work/WBCAttPlus_workspace/output/pdf/runs/20261024T083950Z_2d40cc60",
+  "strict_split_created": false,
+  "hostname": "gpu-workspace-84db4bcbf9-rvr96",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "python": "3.9.19",
+  "versions": {
+    "numpy": "1.26.4",
+    "Pillow": "10.4.0",
+    "reportlab": "4.2.5",
+    "pypdfium2": "4.30.0",
+    "pickleshare": "0.7.5",
+    "chardet": "5.2.0"
+  },
+  "archive_sha256": "2a1730ce3a772e34bd1089b1aec44597e75b94ab0d26fbe697cb1189a9155090",
+  "audit_summary_sha256": "f68128c8ad4647837e140a0453912e1a5baa7c7dcf58c2446cd0476e51fd3307",
+  "manifest_sha256": "4dd2d1a84e33460f3949bff369b2bc9790f07c7a0c9d48599f9e07412fa420fe",
+  "valid_image_mask_pairs": 10298,
+  "pdf_created": true,
+  "source_grouping_status": "UNVERIFIABLE_MISSING_SOURCE_IDS",
+  "package_scope": "SUPPORTED_ONLY_V2",
+  "not_implemented_features": [
+    {
+      "feature": "strict_patient_or_slide_split",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "Official CSV has no verified patient_id/slide_id mapping.",
+      "reason_cn": "官方 CSV 缺少真实患者/切片来源映射，无法生成或证明来源互斥划分。",
+      "required_data": "Complete image-to-anonymized-patient/slide mapping with traceable provenance."
+    },
+    {
+      "feature": "granule_pixel_area",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "Granules are image-level attributes, not a released mask class.",
+      "reason_cn": "颗粒仅有图像级属性，没有独立像素 Mask，不能统计颗粒像素面积。",
+      "required_data": "Validated per-pixel granule segmentation annotations."
+    },
+    {
+      "feature": "physical_resolution_and_area",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "No microscopy calibration in micrometers per pixel is supplied.",
+      "reason_cn": "缺少显微物理标定，不能从图像宽高或 JPEG DPI 推算 μm/px、μm²。",
+      "required_data": "Traceable microscopy calibration for each acquisition/image."
+    }
+  ],
+  "official_split_leakage_status": "FAIL_EXACT_DUPLICATE_CROSS_SPLIT",
+  "note": "File integrity only. Not proof of patient/slide independence or training completion."
+}

@@ -1,0 +1,572 @@
+{
+  "encoded_file": [
+    {
+      "hash": "040fc567b140e2152a04b1717a151fbf3c0443d257023527f3ce8db94c57d66a",
+      "images": [
+        "BA_20201_ccrop.jpg",
+        "BA_809918_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "81248a7e474601fa21c36226024d2ebbedfac8a7c6f585b32ab40180b409093f"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "fe26629a840adda84b5ac0f7c0e1e207c1878b0b3cb524cded9f13b1a09e769e",
+      "images": [
+        "BA_225540_ccrop.jpg",
+        "BA_786369_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "62afa170fe850615a97d30d3715706d50c1cfdfa7310e061296c386bd160bac5",
+        "649c0e3557731140906ce246ab5597e3c45b85f0422dc7a2a08ba67f11dfb8f4"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "90e5e45d29c9260f0cff63813bc882fe7f52dc191016833f7e4526f18fdec88c",
+      "images": [
+        "BA_251042_ccrop.jpg",
+        "BA_988506_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "171f11f88d5bf90494b78fd0cedefbcfb55ced185cf9cb8899fe98216ff9ee9e",
+        "827a2740a6c8ee153041944cd3b48a7508744cd83dfe233cf3ed52e98484cef9"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "d902ade83a220a590df2eb70f0b53cf5008dd9fa7dab856d2af6af351b2e8c80",
+      "images": [
+        "BA_381452_ccrop.jpg",
+        "BA_80990_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "7dfc8d3b0b0db163a81c7dbb13939d6836b4e50bc97437490db75d24e6ee3522",
+        "89a66d095fcf74fa048944d951ed0ca4424e0ee63cb06da88bc3e82eeffd9ca0"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "41018319855da2f94b98db889cffd0200964d5a5b25d19c2ad33b874bb1569ff",
+      "images": [
+        "BA_435917_ccrop.jpg",
+        "BA_858229_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "val"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "7fc2b223562764f44a45db6bfcc24e56eaed34fdcd6ebc00bbb9ac2724740b75"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "9c8273fc0509f71278d1bcd5cb44b4fa8200a817e8b05fc639996e0fc6efdb32",
+      "images": [
+        "BA_546746_ccrop.jpg",
+        "BA_685720_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "568421d84aee2eb018bbd5cc601b6c5bfd5630b6cc9d11ad8380274c9adf0a03"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "a85bfa4c84c5a7db696e4fe79c7e662a8ef5ac1637ff778bd8357ffe674408d8",
+      "images": [
+        "BNE_191112_ccrop.jpg",
+        "EO_225902_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "val"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Eosinophil",
+        "Neutrophil"
+      ],
+      "conflicting_cell_type_labels": true,
+      "distinct_mask_sha256": [
+        "db3d222b8d7eb486d70086e706e079c5381bdedae6c17aba5245826b971cf7f0"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "4b8b97e899a0c0324f0772c29cce16e38d1732da072fd4414aeae8edb983f753",
+      "images": [
+        "EO_220125_ccrop.jpg",
+        "EO_433229_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "77ed116dd7fe8795aaf72e68b8420d64e044fb3a5e6f0d93feaea6de2713ac5f",
+        "c67cf429ebe47c921a3356cfa23ea92acdd09541ab833333b7b652fcb876414e"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "c4041f2f889bdc3d4586f3ae5dda74bfa8092d0139845a3ce0e5ecd319fb2390",
+      "images": [
+        "EO_284748_ccrop.jpg",
+        "EO_738445_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "517aa6240a917550eeb70ea1893122fc72331425d319268f6ff45d684fe4da9e",
+        "7c185ba8aac2baab5af33527161e992064f4187a894b95734149507447156912"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "43eb55da20b7e54bd2b40f23e3b45f028058863ba47ed0ca3dee697ab322b917",
+      "images": [
+        "EO_621854_ccrop.jpg",
+        "EO_728356_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "3806ae54134ad18a46cf9e68af622a3092484541bb5d174dfce606f48aa823fb",
+        "4a14fb424ed3c162080c13c71d62e5aff4e77c22589c6c720838a3f301701c37"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "ea51e85a0ba719988d2c5e8765ceb79b8e67b40333412c33678745f427b35868",
+      "images": [
+        "EO_65638_ccrop.jpg",
+        "EO_873756_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "bc83c0568a4d56da04fc09aa45b47a97548a9e0b2b36c8171b85a363bc8f950f",
+        "f6c846f21f30ac1a7d13219570ad7cd2703b37490f4017e6206a0b077b5f7ae2"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "b01e397d5da627b65f59282885f4c4c880cfd6cf46375a72d7646fce2cd69323",
+      "images": [
+        "EO_890163_ccrop.jpg",
+        "EO_918881_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "560d1bb6e93975352c7ea58d1fe14b60ab6af84f77cdbb34805afb279dbc7df8",
+        "ce1629f8da54f8c737b856151e6090c46066854f29bf715b0a7e13be2c53542c"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "a8d381ad9abf596f574cf53653a89600e93e91698cf32870e78765f1c1e9d34b",
+      "images": [
+        "EO_941266_ccrop.jpg",
+        "EO_994040_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "801486619cb738e4e48fb31cb1055535f0d08bf3e1cd5c6eca361a34f278c1bc",
+        "cc24513f3bc70d15aba8b2af8c2f37de19538b97227ccebb7edbd56a4ade0484"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "51fbf3543624aa28b029315e163b70ba694abce2722d2e709d661fe20b55353f",
+      "images": [
+        "MO_145357_ccrop.jpg",
+        "MO_997225_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Monocyte"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "00bb8c961b0e84c62d692d0d333139c6a3e2822eafe1ba012d9583d4a697af65",
+        "90f9a133b3a4b9bec573025f0d2a33f8900e85fb72c293d988d62ea66f01eba5"
+      ],
+      "conflicting_masks": true
+    }
+  ],
+  "decoded_rgb": [
+    {
+      "hash": "289d6119c117f082e951da1248207c2812e6a18c24cd3dc44f25e3e18dab7d7e",
+      "images": [
+        "BA_20201_ccrop.jpg",
+        "BA_809918_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "81248a7e474601fa21c36226024d2ebbedfac8a7c6f585b32ab40180b409093f"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "f9c41cb1c4dca683060c41d35b6f1468da0d82842548a030b3b1a8f8d1de0841",
+      "images": [
+        "BA_225540_ccrop.jpg",
+        "BA_786369_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "62afa170fe850615a97d30d3715706d50c1cfdfa7310e061296c386bd160bac5",
+        "649c0e3557731140906ce246ab5597e3c45b85f0422dc7a2a08ba67f11dfb8f4"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "684fc873b3dfa0527e827523c7d00681cda43a054f9e04eb8615c09fea80ff5d",
+      "images": [
+        "BA_251042_ccrop.jpg",
+        "BA_988506_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "171f11f88d5bf90494b78fd0cedefbcfb55ced185cf9cb8899fe98216ff9ee9e",
+        "827a2740a6c8ee153041944cd3b48a7508744cd83dfe233cf3ed52e98484cef9"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "fbffcd60edc519d1ce64f24132652173b56dfd1526146695284b242525d05920",
+      "images": [
+        "BA_381452_ccrop.jpg",
+        "BA_80990_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "7dfc8d3b0b0db163a81c7dbb13939d6836b4e50bc97437490db75d24e6ee3522",
+        "89a66d095fcf74fa048944d951ed0ca4424e0ee63cb06da88bc3e82eeffd9ca0"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "322326cdd45049b56a4465ecbd7a903aece4e57cd766884de96d4055cbdde18f",
+      "images": [
+        "BA_435917_ccrop.jpg",
+        "BA_858229_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "val"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "7fc2b223562764f44a45db6bfcc24e56eaed34fdcd6ebc00bbb9ac2724740b75"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "0988c7c5d3bec9981d8f032a7fc99ba68426bc79a2396165914dc4cc1928a53c",
+      "images": [
+        "BA_546746_ccrop.jpg",
+        "BA_685720_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Basophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "568421d84aee2eb018bbd5cc601b6c5bfd5630b6cc9d11ad8380274c9adf0a03"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "8f3855f57bb7e7f7d7564ecb5c40ffe2b98482f48fcbbb06b64769feedad0d3b",
+      "images": [
+        "BNE_191112_ccrop.jpg",
+        "EO_225902_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "val"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Eosinophil",
+        "Neutrophil"
+      ],
+      "conflicting_cell_type_labels": true,
+      "distinct_mask_sha256": [
+        "db3d222b8d7eb486d70086e706e079c5381bdedae6c17aba5245826b971cf7f0"
+      ],
+      "conflicting_masks": false
+    },
+    {
+      "hash": "8d3ee15cbf54c62c2a3083750b3631c75fd71a353605216f847e162e868b895f",
+      "images": [
+        "EO_220125_ccrop.jpg",
+        "EO_433229_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "77ed116dd7fe8795aaf72e68b8420d64e044fb3a5e6f0d93feaea6de2713ac5f",
+        "c67cf429ebe47c921a3356cfa23ea92acdd09541ab833333b7b652fcb876414e"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "5ef481c3ce51f3f2c3c0eaa5751dde76989a546f41971697285309b624caa5eb",
+      "images": [
+        "EO_284748_ccrop.jpg",
+        "EO_738445_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "517aa6240a917550eeb70ea1893122fc72331425d319268f6ff45d684fe4da9e",
+        "7c185ba8aac2baab5af33527161e992064f4187a894b95734149507447156912"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "15501a5319c51983890a366cdd6a2db59a31dd567db5ec273b4be927e3a67a29",
+      "images": [
+        "EO_621854_ccrop.jpg",
+        "EO_728356_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "3806ae54134ad18a46cf9e68af622a3092484541bb5d174dfce606f48aa823fb",
+        "4a14fb424ed3c162080c13c71d62e5aff4e77c22589c6c720838a3f301701c37"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "a69eac2bd27650acf0433b925cb68b182d06f724104758578784f901f0a0a4a1",
+      "images": [
+        "EO_65638_ccrop.jpg",
+        "EO_873756_ccrop.jpg"
+      ],
+      "official_splits": [
+        "train"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "bc83c0568a4d56da04fc09aa45b47a97548a9e0b2b36c8171b85a363bc8f950f",
+        "f6c846f21f30ac1a7d13219570ad7cd2703b37490f4017e6206a0b077b5f7ae2"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "01f8828a7ea7bc809c56baa1b26fd8e307ddf96a3bd47b3e2537ce378474782e",
+      "images": [
+        "EO_890163_ccrop.jpg",
+        "EO_918881_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "560d1bb6e93975352c7ea58d1fe14b60ab6af84f77cdbb34805afb279dbc7df8",
+        "ce1629f8da54f8c737b856151e6090c46066854f29bf715b0a7e13be2c53542c"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "319412d070e700a8d1645b0fefe4cf5cf0d9fffcad11a241107d08ad29210355",
+      "images": [
+        "EO_941266_ccrop.jpg",
+        "EO_994040_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test"
+      ],
+      "cross_official_split": false,
+      "cell_type_labels": [
+        "Eosinophil"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "801486619cb738e4e48fb31cb1055535f0d08bf3e1cd5c6eca361a34f278c1bc",
+        "cc24513f3bc70d15aba8b2af8c2f37de19538b97227ccebb7edbd56a4ade0484"
+      ],
+      "conflicting_masks": true
+    },
+    {
+      "hash": "bd3de5f9b78fe5c2158f060e0a4dbee4735557192b9a1227d58876962ed2f868",
+      "images": [
+        "MO_145357_ccrop.jpg",
+        "MO_997225_ccrop.jpg"
+      ],
+      "official_splits": [
+        "test",
+        "train"
+      ],
+      "cross_official_split": true,
+      "cell_type_labels": [
+        "Monocyte"
+      ],
+      "conflicting_cell_type_labels": false,
+      "distinct_mask_sha256": [
+        "00bb8c961b0e84c62d692d0d333139c6a3e2822eafe1ba012d9583d4a697af65",
+        "90f9a133b3a4b9bec573025f0d2a33f8900e85fb72c293d988d62ea66f01eba5"
+      ],
+      "conflicting_masks": true
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Preserve exact file bytes for SHA-256 verification.
+* -text
+*.pdf binary
+*.png binary
+*.zip binary

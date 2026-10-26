@@ -1,0 +1,292 @@
+{
+  "dataset": "WBCAtt+",
+  "audit_schema": "2.0",
+  "package_scope": "SUPPORTED_ONLY_V2",
+  "implemented_features": [
+    "official_asset_checksums_and_safe_extraction",
+    "full_image_mask_decode_and_pair_integrity",
+    "image_count_and_pixel_dimension_distribution_min_max_mean",
+    "five_official_foreground_components_pixel_area_and_long_tail_chart",
+    "official_split_counts_and_duplicate_risk_screening",
+    "chinese_pdf_html_markdown_reports_and_execution_receipt"
+  ],
+  "not_implemented_features": [
+    {
+      "feature": "strict_patient_or_slide_split",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "Official CSV has no verified patient_id/slide_id mapping.",
+      "reason_cn": "官方 CSV 缺少真实患者/切片来源映射，无法生成或证明来源互斥划分。",
+      "required_data": "Complete image-to-anonymized-patient/slide mapping with traceable provenance."
+    },
+    {
+      "feature": "granule_pixel_area",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "Granules are image-level attributes, not a released mask class.",
+      "reason_cn": "颗粒仅有图像级属性，没有独立像素 Mask，不能统计颗粒像素面积。",
+      "required_data": "Validated per-pixel granule segmentation annotations."
+    },
+    {
+      "feature": "physical_resolution_and_area",
+      "status": "NOT_IMPLEMENTED",
+      "reason": "No microscopy calibration in micrometers per pixel is supplied.",
+      "reason_cn": "缺少显微物理标定，不能从图像宽高或 JPEG DPI 推算 μm/px、μm²。",
+      "required_data": "Traceable microscopy calibration for each acquisition/image."
+    }
+  ],
+  "created_at_utc": "2026-10-24T08:40:59.048040+00:00",
+  "execution_site": "server",
+  "hostname": "gpu-workspace-84db4bcbf9-rvr96",
+  "platform": "Linux-6.8.0-147-generic-x86_64-with-glibc2.39",
+  "python": "3.9.19",
+  "dataset_root": "/home/jovyan/work/WBCAttPlus_workspace/datasets/WBCAttPlus",
+  "audit_script_sha256": "056fc97f7bc1e2a6ff383441cc8f890c53e31e1baab39ae586903a11f993ac6c",
+  "integrity_status": "PASS",
+  "issue_count": 0,
+  "official_split_leakage_status": "FAIL_EXACT_DUPLICATE_CROSS_SPLIT",
+  "source_asset_checks": [
+    {
+      "path": "reference/huggingface_README.md",
+      "status": "PASS",
+      "sha256": "52a3083d5e5f4c98ce376d335087a329bc3c19b3ce3b31120323a6aab66a0337"
+    },
+    {
+      "path": "dataset_txt/pbc_attr_v1_ccrop_train.csv",
+      "status": "PASS",
+      "sha256": "f5ed4f3ebee34f7a816f117dc5fa8f6f64c4703889b5a1724d658ec4e66872d1"
+    },
+    {
+      "path": "dataset_txt/pbc_attr_v1_ccrop_val.csv",
+      "status": "PASS",
+      "sha256": "3d8b62b71f50d0bdb924ad9d6f34fa41c6edb2c14dcab01687c0b854ee804381"
+    },
+    {
+      "path": "dataset_txt/pbc_attr_v1_ccrop_test.csv",
+      "status": "PASS",
+      "sha256": "25c34f35574cfad63abadfff99eb64b2c965dfd0d8f20353f88b0648d60d13e9"
+    },
+    {
+      "path": "dataset_txt/pbc_attr_v1_ccrop_all.csv",
+      "status": "PASS",
+      "sha256": "5061872d1eaef209231895aac66a1af2a201019755ce9d64d9bcb80408f128cd"
+    },
+    {
+      "path": "reference/README.md",
+      "status": "PASS",
+      "sha256": "05034151512973ff8315cfc33054330a5a3e7b66640dc6004fcce95160745cee"
+    },
+    {
+      "path": "reference/att_dataset_seg.py",
+      "status": "PASS",
+      "sha256": "018fa22802c982ec3c47b1a1370a2fa9a0b2cbaa6df27657e78614b1319391f0"
+    },
+    {
+      "path": "reference/main_seg.py",
+      "status": "PASS",
+      "sha256": "723e25aea84605b96e88e283c31b61e1c921cc69e5addff7212a34fc328c8f4c"
+    },
+    {
+      "path": "reference/configs/fcn.yaml",
+      "status": "PASS",
+      "sha256": "51229fbc114dd6d4765d9e978c76d5dcd35e4b80770d9ffe6a3a47ff2688d4ef"
+    },
+    {
+      "path": "reference/dataset_txt/attribute.yml",
+      "status": "PASS",
+      "sha256": "7c87678127814e169a91762d87e4990c5ce900e53aaf4d699ef928cc7d0a82ed"
+    },
+    {
+      "path": "reference/data/PBC/pbcseg_final_v1_viz.ipynb",
+      "status": "PASS",
+      "sha256": "37581ef6123db82e182f0d68127d639ea1b1af0bbbabcc998e6c6610c2bb8591"
+    },
+    {
+      "path": "reference/Mask2Former/mask2former/data/datasets/register_pbcseg_full.py",
+      "status": "PASS",
+      "sha256": "269651feace05d984e1895e5bfe31ec414701ccbac5a6a2f6717078de5d37719"
+    },
+    {
+      "path": "archives/pbcseg_final_v1.tar",
+      "status": "PASS",
+      "sha256": "2a1730ce3a772e34bd1089b1aec44597e75b94ab0d26fbe697cb1189a9155090"
+    }
+  ],
+  "expected_release_images": 10298,
+  "annotation_count": 10298,
+  "image_count": 10298,
+  "mask_count": 10298,
+  "fully_valid_image_mask_pairs": 10298,
+  "image_modes": {
+    "RGB": 10298
+  },
+  "mask_modes": {
+    "L": 10298
+  },
+  "resolution": {
+    "definition": "Image matrix width/height in pixels, not physical microns per pixel",
+    "physical_calibration": "NOT_PROVIDED; JPEG DPI is not microscopy calibration",
+    "width": {
+      "min": 360,
+      "max": 360,
+      "mean": 360.0
+    },
+    "height": {
+      "min": 360,
+      "max": 360,
+      "mean": 360.0
+    },
+    "area_pixels": {
+      "min": 129600,
+      "max": 129600,
+      "mean": 129600.0
+    },
+    "distribution": [
+      {
+        "width": 360,
+        "height": 360,
+        "area_pixels": 129600,
+        "count": 10298
+      }
+    ]
+  },
+  "cell_type_counts": {
+    "Basophil": 1218,
+    "Eosinophil": 3117,
+    "Lymphocyte": 1214,
+    "Monocyte": 1420,
+    "Neutrophil": 3329
+  },
+  "official_split_counts": {
+    "train": 6169,
+    "val": 1030,
+    "test": 3099
+  },
+  "total_valid_pixels": 1334620800,
+  "foreground_pixels": 677692836,
+  "pixel_area_statistics": [
+    {
+      "class_id": 0,
+      "component": "background",
+      "component_cn": "背景",
+      "pixels": 656927964,
+      "share_all_pixels_pct": 49.222068470684704,
+      "share_foreground_pct": "",
+      "images_containing": 10298,
+      "image_prevalence_pct": 100.0
+    },
+    {
+      "class_id": 1,
+      "component": "cytoplasm",
+      "component_cn": "细胞质",
+      "pixels": 86668784,
+      "share_all_pixels_pct": 6.493888301456114,
+      "share_foreground_pct": 12.788800382124743,
+      "images_containing": 10298,
+      "image_prevalence_pct": 100.0
+    },
+    {
+      "class_id": 2,
+      "component": "nucleus",
+      "component_cn": "细胞核",
+      "pixels": 70669994,
+      "share_all_pixels_pct": 5.2951365661317435,
+      "share_foreground_pct": 10.428027307640006,
+      "images_containing": 10298,
+      "image_prevalence_pct": 100.0
+    },
+    {
+      "class_id": 3,
+      "component": "platelets",
+      "component_cn": "血小板",
+      "pixels": 3429022,
+      "share_all_pixels_pct": 0.25692855978267387,
+      "share_foreground_pct": 0.5059846906807202,
+      "images_containing": 4800,
+      "image_prevalence_pct": 46.61099242571373
+    },
+    {
+      "class_id": 4,
+      "component": "red_blood_cells",
+      "component_cn": "红细胞",
+      "pixels": 515846377,
+      "share_all_pixels_pct": 38.651156718073025,
+      "share_foreground_pct": 76.11802126236435,
+      "images_containing": 10298,
+      "image_prevalence_pct": 100.0
+    },
+    {
+      "class_id": 5,
+      "component": "vacuoles",
+      "component_cn": "空泡",
+      "pixels": 1078659,
+      "share_all_pixels_pct": 0.08082138387173346,
+      "share_foreground_pct": 0.15916635719017694,
+      "images_containing": 775,
+      "image_prevalence_pct": 7.525733152068363
+    }
+  ],
+  "pixel_statistic_definition": "Sum mask pixels across fully valid pairs. Foreground denominator excludes class 0; all-pixel denominator includes class 0. Pixel area is not instance count or physical area.",
+  "granule_note": "Granules are image-level attributes only; released semantic masks have no granule class.",
+  "duplicates": {
+    "file_groups": 14,
+    "decoded_rgb_groups": 14,
+    "decoded_cross_official_split_groups": 6,
+    "conflicting_cell_type_groups": 1,
+    "conflicting_mask_groups": 10,
+    "dhash_radius": 3,
+    "dhash_candidate_pairs": 16,
+    "dhash_csv_truncated": false,
+    "dhash_interpretation": "Screening candidates only; require review. Never used as source identities."
+  },
+  "source_grouping": {
+    "status": "UNVERIFIABLE_MISSING_SOURCE_IDS",
+    "strict_split_created": false,
+    "implementation_status": "NOT_IMPLEMENTED_IN_THIS_PACKAGE",
+    "available_annotation_columns": [
+      "img_name",
+      "label",
+      "cell_size",
+      "cell_shape",
+      "nucleus_shape",
+      "nuclear_cytoplasmic_ratio",
+      "chromatin_density",
+      "cytoplasm_vacuole",
+      "cytoplasm_texture",
+      "cytoplasm_colour",
+      "granule_type",
+      "granule_colour",
+      "granularity",
+      "path",
+      "split"
+    ],
+    "patient_id_available": false,
+    "slide_id_available": false,
+    "reason": "Released CSV has no patient_id/slide_id. Filename prefixes and numeric suffixes are not validated source groups.",
+    "required_source_fields": [
+      "img_name",
+      "patient_id and/or globally unique slide_id",
+      "source_reference"
+    ],
+    "note": "Only existing official image-level splits are counted. No new split or source identity is generated.",
+    "official_split_scope": "Image-level benchmark split; patient/slide independence is unverified",
+    "anti_leakage_caveat": "No exact or perceptual duplicates does not prove patient/slide independence."
+  },
+  "sources": [
+    {
+      "name": "WBCAtt+ official release",
+      "url": "https://huggingface.co/datasets/apple2373/wbcattplus"
+    },
+    {
+      "name": "WBCAtt+ code and raw mask format",
+      "url": "https://github.com/apple2373/wbcattplus"
+    },
+    {
+      "name": "WBCAtt+ paper, official image split",
+      "url": "https://arxiv.org/html/2605.19692v1"
+    },
+    {
+      "name": "Original PBC release",
+      "url": "https://data.mendeley.com/datasets/snkd93bnjr/1"
+    }
+  ],
+  "server_deployment_verification": "RUN_ON_SERVER"
+}
